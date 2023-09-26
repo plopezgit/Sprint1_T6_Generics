@@ -1,16 +1,23 @@
 package n2exe2;
 
+import java.util.ArrayList;
+
 public class App {
 
 	public static void main(String[] args) {
-		GenericMethods<String, Integer> identityStack = new GenericMethods<>();
-		identityStack.print("adress", 26587, new Person("name", "surname", 9));
 		
-		GenericMethods<String, String> friendsPhoto = new GenericMethods<>();
-		friendsPhoto.print("Flocky", "Brutus", new Person("Petra", "Petrica", 2));
+		/*ArrayList<String> adressStack = new ArrayList<>();
+		adressStack.add("18005");*/
 		
-		GenericMethods<Integer, Integer> beingDigital = new GenericMethods<>();
-		beingDigital.print(100111, 100010, new Person("Nic", "Neg",  110001));
+		/*ArrayList<Integer> adressStack = new ArrayList<>();
+		adressStack.add(18005);*/
+		
+		ArrayList<Person> adressStack = new ArrayList<>();
+		adressStack.add(new Person("name2", "surname2", 12));
+		adressStack.add(new Person("name3", "surname3", 14));
+
+		GenericMethods identityStack = new GenericMethods();
+		identityStack.print(adressStack, new Person("name", "surname", 9));
 		
 	}
 

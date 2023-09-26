@@ -1,9 +1,11 @@
 package n2exe2;
 
-public class GenericMethods<T, S> {
+import java.util.List;
+
+public class GenericMethods {
 	
-	public void print(T t, S s, Person person) {
-		System.out.println("args: " + t + s + person);
+	public void print(List<?> t, Person person) {
+		System.out.println("args: " + t + person);
 	}
 	
 	/*
