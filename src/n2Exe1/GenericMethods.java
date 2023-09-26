@@ -1,10 +1,8 @@
 package n2Exe1;
 
-import n2exe2.Person;
-
-public class GenericMethods<T, S> {
+public class GenericMethods {
 	
-	public void print(T t, S s, Person person) {
+	public <T, S> void print(T t, S s, Person person) {
 		System.out.println("args: " + t + s + person);
 	}
 	
