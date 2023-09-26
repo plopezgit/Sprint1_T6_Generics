@@ -4,11 +4,12 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		Generic gen = new Generic();
-		System.out.println(gen.generic1(new Smartphone("sunset", "657474632")));
-		gen.generic2(new Smartphone("sunset", "657474632"));
-	
+		Generic generic = new Generic();
 		
+		System.out.println(generic.phoneTest1(new Smartphone("sunset", "657474632")));
+		
+		generic.phoneTest2(new Smartphone("sunset", "657474632"));
+	
 		/*
 		 * En el main() de la clase Principal, pasa un objeto de la clase Smartphone 
 		 * a los dos métodos genéricos de la clase Generica. (OK)
