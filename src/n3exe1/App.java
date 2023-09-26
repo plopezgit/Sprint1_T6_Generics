@@ -14,7 +14,7 @@ public class App {
 		 * a los dos métodos genéricos de la clase Generica. (OK)
 		 * 
 		 * ¿El método limitado por la interfaz Telefon, 
-		 * de la clase Generica, puede llamar al método hacerFotos()? -No
+		 * de la clase Generica, puede llamar al método hacerFotos()? - Examining
 		 */
 		
 	}
