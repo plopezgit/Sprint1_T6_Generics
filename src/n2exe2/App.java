@@ -10,7 +10,7 @@ public class App {
 		friendsPhoto.print("Flocky", "Brutus", new Person("Petra", "Petrica", 2));
 		
 		GenericMethods<Integer, Integer> beingDigital = new GenericMethods<>();
-		beingDigital.print(100111, 100010, new Person("Nic", "Neg",  612));
+		beingDigital.print(100111, 100010, new Person("Nic", "Neg",  110001));
 		
 	}
 
