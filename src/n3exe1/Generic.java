@@ -2,12 +2,12 @@ package n3exe1;
 
 public class Generic {
 
-	public <T extends Phone> void generic1 (T t) {
-		t.call(657474632);
+	public <T extends Phone> String generic1 (T t) {
+		return t.call();
 	}
 	
-	public <T extends Smartphone> String generic2 (T t) {
-		t.call(657474632);
-		return t.takeAPicture("sunset");
+	public <T extends Smartphone> void generic2 (T t) {
+		System.out.println(t.call());
+		System.out.println(t.takeAPicture());
 	}
 }

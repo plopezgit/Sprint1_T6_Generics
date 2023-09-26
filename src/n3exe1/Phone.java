@@ -2,7 +2,7 @@ package n3exe1;
 
 public interface Phone {
 	
-	public String call (int number);
+	public String call ();
 	
 	/*
 	 * Para realizar este ejercicio necesitas una interfaz llamada Telefono (OK)

@@ -5,8 +5,8 @@ public class App {
 	public static void main(String[] args) {
 		
 		Generic gen = new Generic();
-		gen.generic1(new Smartphone());
-		gen.generic2(new Smartphone());
+		System.out.println(gen.generic1(new Smartphone("sunset", "657474632")));
+		gen.generic2(new Smartphone("sunset", "657474632"));
 	
 		
 		/*
@@ -14,7 +14,7 @@ public class App {
 		 * a los dos métodos genéricos de la clase Generica. (OK)
 		 * 
 		 * ¿El método limitado por la interfaz Telefon, 
-		 * de la clase Generica, puede llamar al método hacerFotos()? - Examining
+		 * de la clase Generica, puede llamar al método hacerFotos()? - SI
 		 */
 		
 	}
