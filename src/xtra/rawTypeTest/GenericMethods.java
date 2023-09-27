@@ -1,9 +1,9 @@
-package n1Exe2;
+package xtra.rawTypeTest;
 
-public class GenericMethods {
+public class GenericMethods<T> {
 	
-	public <T, S, U> void print(T t, S s, U u) {
-		System.out.println("args: " + t + s + u);
+	public void print(T t) {
+		System.out.println("args: " + t);
 	}
 
 	/*
