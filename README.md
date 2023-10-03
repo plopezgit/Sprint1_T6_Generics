@@ -39,7 +39,9 @@ The Generic class must have two generic methods, the first must receive an argum
 Can the method bounded by the Phone interface, of the Generic class, call the makePhotos() method?
 
 
-Tutorials:
+Documentation:
 
 https://docs.oracle.com/javase/tutorial/java/generics/index.html
 https://docs.oracle.com/javase/tutorial/extra/generics/index.html
+
+
